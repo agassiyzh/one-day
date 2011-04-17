@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">one day</string>
+<string name="thingsName">Things name</string>
+<string name="thingsComment">Comment</string>
+<string name="btn_save">Save</string>
+<string name="btn_cancel">Canel</string>
+<string name="btn_add_new">Save&amp;Add</string>
+<string name="add_things_dialog_title">Add things</string>
+</resources>

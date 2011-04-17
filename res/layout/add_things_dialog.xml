@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<TextView android:text="@string/thingsName"
+		android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	<EditText android:id="@+id/thingsName" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_weight="0"
+		android:maxLines="1" android:width="380dip"/>
+	<TextView android:text="@string/thingsComment"
+		android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	<EditText android:id="@+id/thingComment" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_weight="5" android:lines="7"
+		android:gravity="top" />
+	<LinearLayout android:orientation="horizontal"
+		android:layout_weight="0" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:gravity="center_horizontal">
+		<Button android:id="@+id/btnSave" android:text="@string/btn_save"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_weight="1" />
+		<Button android:id="@+id/btnCancel" android:text="@string/btn_cancel"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_weight="1" />
+		<Button android:id="@+id/btnAddNew" android:text="@string/btn_add_new"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_weight="1" />
+	</LinearLayout>
+</LinearLayout>
